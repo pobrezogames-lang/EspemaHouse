@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: espema-house-online
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
